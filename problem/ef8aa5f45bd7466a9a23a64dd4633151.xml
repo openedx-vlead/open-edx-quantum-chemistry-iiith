@@ -1,0 +1,63 @@
+<problem display_name="Multiple Choice" markdown="1. A minimal valence basis set is the one in which&#10;() Always gives lower energy&#10;() Is optimized for small molecules&#10;(x) Contains one basis function for each atomic orbital&#10;() None of the above&#10;&#10;2. Which of the following basis sets do not have the polarization functions&#10;() 6-31G*&#10;() 6-31G(d)&#10;(x) 3-21G&#10;() None of the above&#10;&#10;3.In the context of quantum chemistry , UHF stands for&#10;() Ultra High Frequency&#10;(x) Unrestricted Hatree Fock&#10;() Under Half Full&#10;() Unlimited Hamiltonian function&#10;&#10;4. What do MP2 and B3LYP levels have in common&#10;(x) They are all post-Hartree-Fock techniques&#10;() They are all size-extensive techniques&#10;() They are all techniques which include electron correlation&#10;() They are all based on density functional theory&#10;&#10;5. The transition state can be characterised by&#10;(x) One imaginary frequency&#10;() All positive frequencies&#10;() All negative frequencies&#10;() None of the above&#10;&#10;6. The number of normal modes for a non-linear molecule of 'n' atoms is&#10;() 3n-4&#10;() 3n-5&#10;(x) 3n-6&#10;() 3n&#10;">
+<p>1. A minimal valence basis set is the one in which</p>
+<multiplechoiceresponse>
+  <choicegroup type="MultipleChoice">
+    <choice correct="false">Always gives lower energy</choice>
+    <choice correct="false">Is optimized for small molecules</choice>
+    <choice correct="true">Contains one basis function for each atomic orbital</choice>
+    <choice correct="false">None of the above</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>2. Which of the following basis sets do not have the polarization functions</p>
+<multiplechoiceresponse>
+  <choicegroup type="MultipleChoice">
+    <choice correct="false">6-31G*</choice>
+    <choice correct="false">6-31G(d)</choice>
+    <choice correct="true">3-21G</choice>
+    <choice correct="false">None of the above</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>3.In the context of quantum chemistry , UHF stands for</p>
+<multiplechoiceresponse>
+  <choicegroup type="MultipleChoice">
+    <choice correct="false">Ultra High Frequency</choice>
+    <choice correct="true">Unrestricted Hatree Fock</choice>
+    <choice correct="false">Under Half Full</choice>
+    <choice correct="false">Unlimited Hamiltonian function</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>4. What do MP2 and B3LYP levels have in common</p>
+<multiplechoiceresponse>
+  <choicegroup type="MultipleChoice">
+    <choice correct="true">They are all post-Hartree-Fock techniques</choice>
+    <choice correct="false">They are all size-extensive techniques</choice>
+    <choice correct="false">They are all techniques which include electron correlation</choice>
+    <choice correct="false">They are all based on density functional theory</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>5. The transition state can be characterised by</p>
+<multiplechoiceresponse>
+  <choicegroup type="MultipleChoice">
+    <choice correct="true">One imaginary frequency</choice>
+    <choice correct="false">All positive frequencies</choice>
+    <choice correct="false">All negative frequencies</choice>
+    <choice correct="false">None of the above</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>6. The number of normal modes for a non-linear molecule of 'n' atoms is</p>
+<multiplechoiceresponse>
+  <choicegroup type="MultipleChoice">
+    <choice correct="false">3n-4</choice>
+    <choice correct="false">3n-5</choice>
+    <choice correct="true">3n-6</choice>
+    <choice correct="false">3n</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+
+</problem>

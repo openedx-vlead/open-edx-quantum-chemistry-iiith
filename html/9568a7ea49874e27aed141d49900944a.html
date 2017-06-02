@@ -1,0 +1,21 @@
+<p></p>
+<p>Optimization is the process of selecting the best from a set of alternatives. Optimization is performed for function that is multi-variable, continuous and differentiable, and typical optimization techniques find minima or maxima of the function.</p>
+<p></p>
+<p>In nature, molecules are most likely to be found in those conformations which are most stable (energy minimum). The potential energy surface (PES) of the molecular configuration is first computed using quantum mechanics. Each local minima on the on this PES represents a stable conformation, and a "movie" of the molecule will show that most of the time the molecule spends near these locally stable conformations with sudden jumps to nearby stable conformations, with the rate that depends on the energy barrier of such a jump. If one of the stable conformations is significantly more stable then the molecule will be trapped in that conformation and geometry. Or if the stable conformations are separated by large barriers, the molecule will be trapped in whatever stable conformation that is achieved first. </p>
+<p></p>
+<p>PES is a hyper-surface showing the energy of a particular conformation . This many dimensional hyper-surface can be characterized by points where the gradient is zero, which can be classified into following categories:</p>
+<ol><ol>
+<li>Local Maxima: a point on the hyper-surface that has the highest function value in its near neighborhood; <br />all nearby points have lower values. A hyper-surface will have very many local maxima, in general.</li>
+<li>Local Minima: a point on the hyper-surface that has the lowest function value in its near neighborhood;<br /> all nearby points have higher values. A hyper-surface will have very many local minima, in general.</li>
+<li>Global Maxima: From the set of points which are local maxima, it is that point that has the highest function value. <br />A hyper-surface can have only one global maxima.</li>
+<li>Global Minima: From the set of points which are local minima, it is that point that has the lowest function value.<br /> A hyper-surface can have only one global minima.</li>
+<li>Saddle point: A point on the hyper-surface which has minimum in at least one direction and maximum other directions;<br /> the conformation at the saddle point represents the transition structure between two stable conformations.</li>
+</ol></ol>
+<p></p>
+<p>To identify the stable conformations, local minima of the PES need to be computed. This is called Geometry Optimization and is used to:</p>
+<ol><ol>
+<li>Characterize a potential energy surface</li>
+<li>Obtain a structure for a single-point quantum mechanical calculation, which provides a large set of structural and electronic properties for the stable conformation.</li>
+<li>Prepare a structure for molecular dynamics simulation (if the forces on atoms are too large, the integration algorithm <br />may fail; so starting the simulation at stable conformation is crucial).</li>
+</ol></ol>
+<p></p>

@@ -1,0 +1,70 @@
+<problem display_name="Multiple Choice" markdown="&#10;&#10;Q1. A function or potential energy surface can have multiple global minima or maxima.&#10;(x) True&#10;()  False&#10;&#10;Q2. The gradient of a function points in the direction of minima or descent.&#10;()  True&#10;(x) False&#10;&#10;Q3. Picking of initial point and step size chosen in the Steepest Descent method does not affect or matter in the optimization process.&#10;()  True&#10;(x) False&#10;&#10;Q4. Newton-Raphson method converges quadratically.&#10;(x) True&#10;()  False&#10;&#10;Q5. Newton-Raphson method can converge to (a) minima (b) maxima (c) saddle point.&#10;()  Minima alone&#10;()  Either Maxima or minima but not saddle point&#10;(x)  All of the three: maxima, minima and saddle point&#10;&#10;Q6. Newton-Raphson optimization a one variable function always converges to the solution.&#10;()  True&#10;(x) False&#10;&#10;Q7. Steepest Descent method always converges to a solution.&#10;(x) True&#10;()  False&#10;&#10;Q8. The iteration step in the Newton-Raphson's method might fall in infinite loop, in case of oscillating solution.&#10;(x) True&#10;()  False ">
+
+
+<p>Q1. A function or potential energy surface can have multiple global minima or maxima.</p>
+<multiplechoiceresponse>
+  <choicegroup type="MultipleChoice">
+    <choice correct="true">True</choice>
+    <choice correct="false">False</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>Q2. The gradient of a function points in the direction of minima or descent.</p>
+<multiplechoiceresponse>
+  <choicegroup type="MultipleChoice">
+    <choice correct="false">True</choice>
+    <choice correct="true">False</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>Q3. Picking of initial point and step size chosen in the Steepest Descent method does not affect or matter in the optimization process.</p>
+<multiplechoiceresponse>
+  <choicegroup type="MultipleChoice">
+    <choice correct="false">True</choice>
+    <choice correct="true">False</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>Q4. Newton-Raphson method converges quadratically.</p>
+<multiplechoiceresponse>
+  <choicegroup type="MultipleChoice">
+    <choice correct="true">True</choice>
+    <choice correct="false">False</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>Q5. Newton-Raphson method can converge to (a) minima (b) maxima (c) saddle point.</p>
+<multiplechoiceresponse>
+  <choicegroup type="MultipleChoice">
+    <choice correct="false">Minima alone</choice>
+    <choice correct="false">Either Maxima or minima but not saddle point</choice>
+    <choice correct="true">All of the three: maxima, minima and saddle point</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>Q6. Newton-Raphson optimization a one variable function always converges to the solution.</p>
+<multiplechoiceresponse>
+  <choicegroup type="MultipleChoice">
+    <choice correct="false">True</choice>
+    <choice correct="true">False</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>Q7. Steepest Descent method always converges to a solution.</p>
+<multiplechoiceresponse>
+  <choicegroup type="MultipleChoice">
+    <choice correct="true">True</choice>
+    <choice correct="false">False</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>Q8. The iteration step in the Newton-Raphson's method might fall in infinite loop, in case of oscillating solution.</p>
+<multiplechoiceresponse>
+  <choicegroup type="MultipleChoice">
+    <choice correct="true">True</choice>
+    <choice correct="false">False</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+
+</problem>
