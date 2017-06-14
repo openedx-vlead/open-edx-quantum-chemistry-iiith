@@ -1,4 +1,4 @@
-<course cert_html_view_enabled="true" display_name="Quantum Chemistry" instructor_info="{&quot;instructors&quot;: []}" language="en" learning_info="[]" start="&quot;2017-05-10T00:00:00+00:00&quot;">
+<course cert_html_view_enabled="true" course_image="Quantum Chemistry.jpg" display_name="Quantum Chemistry" instructor_info="{&quot;instructors&quot;: []}" language="en" learning_info="[]" start="&quot;2017-05-10T00:00:00+00:00&quot;">
   <chapter url_name="4e23da5350aa4bca9f50b5d96a21d2df"/>
   <chapter url_name="c8c1743f38b741f0a2c98ea3de31eaa6"/>
   <chapter url_name="5939d878ad3d4f8a889b92c4f4e67571"/>

@@ -1,22 +1,19 @@
 <problem display_name="Multiple Choice" markdown="1. Which conformation among syn and anti of dichloroethane is more stable?&#10;    () Syn&#10;    (x) Anti&#10;    () Both are equally stable&#10;&#10;&#10;2. What is the value of dihedral angle in anti conformation of dichloroethane?&#10;   () 0 degree&#10;   () 90 degree&#10;   (x) 180 degree&#10;   () 270 degree&#10;&#10;&#10;">
-<p>1. Which conformation among syn and anti of dichloroethane is more stable?</p>
-<multiplechoiceresponse>
-  <choicegroup type="MultipleChoice">
-    <choice correct="false">Syn</choice>
-    <choice correct="true">Anti</choice>
-    <choice correct="false">Both are equally stable</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>2. What is the value of dihedral angle in anti conformation of dichloroethane?</p>
-<multiplechoiceresponse>
-  <choicegroup type="MultipleChoice">
-    <choice correct="false">0 degree</choice>
-    <choice correct="false">90 degree</choice>
-    <choice correct="true">180 degree</choice>
-    <choice correct="false">270 degree</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-
+  <p>1. Which conformation among syn and anti of dichloroethane is more stable?</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">Syn</choice>
+      <choice correct="true">Anti</choice>
+      <choice correct="false">Both are equally stable</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>2. What is the value of dihedral angle in anti conformation of dichloroethane?</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">0 degree</choice>
+      <choice correct="false">90 degree</choice>
+      <choice correct="true">180 degree</choice>
+      <choice correct="false">270 degree</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
 </problem>

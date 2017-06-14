@@ -1,1 +1,26 @@
-{}
+{
+    "Quantum_Chemistry.jpg": {
+        "contentType": "image/jpeg", 
+        "content_son": {
+            "category": "asset", 
+            "course": "CCNSB04", 
+            "name": "Quantum_Chemistry.jpg", 
+            "org": "IIIT-H", 
+            "revision": null, 
+            "run": "Anytime", 
+            "tag": "c4x"
+        }, 
+        "displayname": "Quantum Chemistry.jpg", 
+        "filename": "asset-v1:IIIT-H+CCNSB04+Anytime+type@asset+block@Quantum_Chemistry.jpg", 
+        "import_path": null, 
+        "locked": false, 
+        "thumbnail_location": [
+            "c4x", 
+            "IIIT-H", 
+            "CCNSB04", 
+            "thumbnail", 
+            "Quantum_Chemistry.jpg", 
+            null
+        ]
+    }
+}

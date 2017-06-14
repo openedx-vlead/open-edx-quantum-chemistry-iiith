@@ -1,50 +1,43 @@
 <problem display_name="Multiple Choice" markdown="&#10;1. What are the intermediatary states in a chemical reaction?&#10;() Nucleophiles&#10;(X) Transition states&#10;() Catalyst&#10;() Water&#10;&#10;2. In which solvent SN2 reaction proceeds well&#10;() Ethane&#10;() Water&#10;() Benzene&#10;(x) DMSO&#10;&#10;3. Transition states are very stable&#10;() True&#10;(x) False&#10;&#10;4. Is the geometry of the transition state different comapred with reactant&#10;(x)True&#10;() False&#10;    &#10;5. Will the solvent play a role in reaction mechanisms&#10;(x) Yes&#10;() No&#10;() Can't say ">
-
-<p>1. What are the intermediatary states in a chemical reaction?</p>
-<multiplechoiceresponse>
-  <choicegroup type="MultipleChoice">
-    <choice correct="false">Nucleophiles</choice>
-    <choice correct="true">Transition states</choice>
-    <choice correct="false">Catalyst</choice>
-    <choice correct="false">Water</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>2. In which solvent SN2 reaction proceeds well</p>
-<multiplechoiceresponse>
-  <choicegroup type="MultipleChoice">
-    <choice correct="false">Ethane</choice>
-    <choice correct="false">Water</choice>
-    <choice correct="false">Benzene</choice>
-    <choice correct="true">DMSO</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>3. Transition states are very stable</p>
-<multiplechoiceresponse>
-  <choicegroup type="MultipleChoice">
-    <choice correct="false">True</choice>
-    <choice correct="true">False</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>4. Is the geometry of the transition state different comapred with reactant</p>
-<multiplechoiceresponse>
-  <choicegroup type="MultipleChoice">
-    <choice correct="true">True</choice>
-    <choice correct="false">False</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>    </p>
-<p>5. Will the solvent play a role in reaction mechanisms</p>
-<multiplechoiceresponse>
-  <choicegroup type="MultipleChoice">
-    <choice correct="true">Yes</choice>
-    <choice correct="false">No</choice>
-    <choice correct="false">Can't say</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-
+  <p>1. What are the intermediatary states in a chemical reaction?</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">Nucleophiles</choice>
+      <choice correct="true">Transition states</choice>
+      <choice correct="false">Catalyst</choice>
+      <choice correct="false">Water</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>2. In which solvent SN2 reaction proceeds well</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">Ethane</choice>
+      <choice correct="false">Water</choice>
+      <choice correct="false">Benzene</choice>
+      <choice correct="true">DMSO</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>3. Transition states are very stable</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">True</choice>
+      <choice correct="true">False</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>4. Is the geometry of the transition state different comapred with reactant</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="true">True</choice>
+      <choice correct="false">False</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>    </p>
+  <p>5. Will the solvent play a role in reaction mechanisms</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="true">Yes</choice>
+      <choice correct="false">No</choice>
+      <choice correct="false">Can't say</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
 </problem>
