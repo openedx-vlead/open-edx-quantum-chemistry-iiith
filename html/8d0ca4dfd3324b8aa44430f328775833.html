@@ -1,4 +1,4 @@
-<p>1. An initio quantum chemistry involves a choice of method and a choice of basis set. A number of different procedures are also available, such as single point calculations, geometry optimisations and calculations of frequencies.</p>
+<p>1. Ab initio quantum chemistry involves a choice of method and a choice of basis set. A number of different procedures are also available, such as single point calculations, geometry optimisations and calculations of frequencies.</p>
 <p>2. Methods, basis sets and procedures play a key role in the calculations.</p>
 <p>3. Methods include the abinitio methods, Hartee-Fock method and the electron correlation methods. The electron correlation methods can be classified as variational methods, perturbation methods and the density functional methods.</p>
 <p>4. Variational correlation methods:</p>
@@ -11,113 +11,57 @@
 <p>The frequency calculations can be carried out for two main reasons. First one is to predict the frequencies and the IR and Raman intensities. Frequencies which are calculated are harmonic frequencies as they are obtained by assuming the potential energy surface to be harmonic. After running an optimization calculation, if all the calculated frequencies are real and positive then that contributes to the local or global minimum of the molecule taken. If we have a stationary point other than the minimum then we don't get all positive values but there would be negative numbers which are often called as "imaginary frequencies". A transition state for any molecule would have only one imaginary frequency. If the symmetry of the molecule is restrained it gives more than one imaginary frequency during optimization. For a molecule of n atoms, the number of normal modes is (3n-6) if the molecule taken is nonlinear and it is (3n-5) if the molecule is linear.</p>
 <h2>GAMESS</h2>
 <p>The software used for all calculations is GAMESS. The input file description is as follows:<br /> <br /> Input file:</p>
-<p></p>
-<ol><ol>
+<ul>
 <li>$CONTRL: This group has several subsections which speak about various global switches.</li>
-</ol></ol>
-<p></p>
-<ol><ol><ol>
-<li>SCFTYP: together with MPLEVEL or CTYP specifies the wavefunction. The user has the choice to choose from RHF, UHF, MCSCF and so on.</li>
-</ol></ol></ol>
-<p></p>
-<ol><ol><ol>
-<li>MPLEVEL: chooses Moller-Plesset perturbation theory elvel after the SCF.</li>
-</ol></ol></ol>
-<p></p>
-<ol><ol><ol>
-<li>CITYP: chooses the CI computation after the SCF, any SCFTYP except UHF may be followed by a CI computation.</li>
-</ol></ol></ol>
-<p></p>
-<ol><ol><ol>
-<li>RUNTYP: specifies the type of computation .</li>
-</ol></ol></ol>
-<p></p>
-<ol><ol><ol>
-<li>COORD: choice of the molecular geometry in $DATA.</li>
-</ol></ol></ol>
-<p></p>
-<ol><ol><ol>
-<li>UNIQUE:only forsymmetry unique atoms will be given in Cartesian coordinates which is default.</li>
-</ol></ol></ol>
-<p></p>
-<ol><ol><ol>
-<li>CART: Cartesian coordinates will be input.</li>
-</ol></ol></ol>
-<p></p>
-<ol><ol><ol>
-<li>ZMAT: GAUSSIAN style internals will be input.</li>
-</ol></ol></ol>
-<p></p>
-<ol><ol><ol>
-<li>UNITS: distance units can be specified as ANGS or BOHR. Angles must be in degrees.</li>
-</ol></ol></ol>
-<p></p>
-<ol><ol><ol></ol>
-<li>$SYSTEM: This group provides global control information for your computer�s operation. This is system related input, and will not seem particularly chemical to the users.</li>
-</ol></ol>
-<p></p>
-<ol><ol><ol>
-<li>TIMLIM: time limit, in minutes. It is set to about 95 percent of the time limit given to the batch job so that GAMESS can stop itself gently.</li>
-</ol></ol></ol>
-<p></p>
-<ol><ol><ol>
-<li>MEMORY: establishes the maximum memory which your job can use.</li>
-</ol></ol></ol>
-<p></p>
-<ol><ol><ol></ol>
-<li>$STATPT: This group controls the search for the stationary points.</li>
-</ol></ol>
-<p></p>
-<ol><ol><ol>
-<li>NSTEP: maximum number of steps to take. Restart data is punched if NSTEP is exceeded.</li>
-</ol></ol></ol>
-<p></p>
-<ol><ol><ol>
-<li>HESS: selects the initial hessian matrix.</li>
-</ol></ol></ol>
-<p></p>
-<ol><ol><ol><ol>
-<li>GUESS: chooses a positive diagonal hessian</li>
-</ol></ol></ol></ol>
-<p></p>
-<ol><ol><ol><ol>
-<li>READ:causes the hessian to be read from a $HESS group.</li>
-</ol></ol></ol></ol>
-<p></p>
-<ol><ol><ol><ol>
-<li>RDAB: reads only the ab initio part of the hessian, and approximates the effective fragment blocks.</li>
-</ol></ol></ol></ol>
-<p></p>
-<ol><ol><ol><ol>
-<li>CALC: causes hessian to be computed.</li>
-</ol></ol></ol></ol>
-<p></p>
-<ol><ol><ol><ol></ol></ol>
-<li>$BASIS: This group allows certain standard basis sets to be easily given. If this group is omitted, the basis set must be given instead of $DATA group.</li>
-</ol></ol>
-<p></p>
-<ol><ol><ol>
-<li>GBASIS: Name of the Gaussian basis set.</li>
-</ol></ol></ol>
-<p></p>
-<ol><ol><ol>
-<li>NGAUSS: number of Gaussians(N). This parameter pertains only to GBASIS=STO, N21,N31 and N311.</li>
-</ol></ol></ol>
-<p></p>
-<ol><ol><ol>
-<li>NDFUNC:number of heavy atom polarization functions to be used. These are usually d functions.</li>
-</ol></ol></ol>
-<p></p>
-<ol><ol><ol></ol>
-<li>$GUESS: This group controls the selection of initial molecular orbitals.</li>
-</ol></ol>
-<p></p>
-<ol><ol>
-<li>$HUCKEL: carry out an extended Huckel calculation using a Huzinaga MINI basis set, and project this onto the current basis. This is implemented for a toms upto Rn, and will work for any electron or ECP basis set.</li>
-</ol></ol>
-<p></p>
+</ul>
 <ol>
-<li>$DATA: This group describes the global molecular data such as point group symmetry, nuclear coordinates, and possibly the basis set. It consists of a series of free format card images.</li>
+<li>SCFTYP: together with MPLEVEL or CTYP specifies the wavefunction. The user has the choice to choose from RHF, UHF, MCSCF and so on.</li>
+<li>MPLEVEL: chooses Moller-Plesset perturbation theory elvel after the SCF.</li>
+<li>CITYP: chooses the CI computation after the SCF, any SCFTYP except UHF may be followed by a CI computation.</li>
+<li>RUNTYP: specifies the type of computation .</li>
+<li>COORD: choice of the molecular geometry in $DATA.</li>
+<li>UNIQUE:only forsymmetry unique atoms will be given in Cartesian coordinates which is default.</li>
+<li>CART: Cartesian coordinates will be input.</li>
+<li>ZMAT: GAUSSIAN style internals will be input.</li>
+<li>UNITS: distance units can be specified as ANGS or BOHR. Angles must be in degrees.</li>
 </ol>
+<p></p>
+<ol><ol><ol></ol></ol></ol>
+<ul>
+<li>$SYSTEM: This group provides global control information for your computers operation. This is system related input, and will not seem particularly chemical to the users.</li>
+</ul>
+<ol>
+<li>TIMLIM: time limit, in minutes. It is set to about 95 percent of the time limit given to the batch job so that GAMESS can stop itself gently.</li>
+<li>MEMORY: establishes the maximum memory which your job can use.</li>
+</ol>
+<p></p>
+<ol><ol><ol></ol></ol></ol>
+<ul>
+<li>$STATPT: This group controls the search for the stationary points.</li>
+</ul>
+<ol>
+<li>NSTEP: maximum number of steps to take. Restart data is punched if NSTEP is exceeded.</li>
+<li>HESS: selects the initial hessian matrix.</li>
+<li>GUESS: chooses a positive diagonal hessian</li>
+<li>READ:causes the hessian to be read from a $HESS group.</li>
+<li>RDAB: reads only the ab initio part of the hessian, and approximates the effective fragment blocks.</li>
+<li>CALC: causes hessian to be computed.</li>
+</ol><ol><ol><ol><ol></ol></ol></ol></ol>
+<p></p>
+<ul>
+<li>$BASIS: This group allows certain standard basis sets to be easily given. If this group is omitted, the basis set must be given instead of $DATA group.</li>
+</ul>
+<ol>
+<li>GBASIS: Name of the Gaussian basis set.</li>
+<li>NGAUSS: number of Gaussians(N). This parameter pertains only to GBASIS=STO, N21,N31 and N311.</li>
+<li>NDFUNC:number of heavy atom polarization functions to be used. These are usually d functions.</li>
+</ol>
+<p></p>
+<ul>
+<li>$GUESS: This group controls the selection of initial molecular orbitals.</li>
+<li>&nbsp;$HUCKEL: carry out an extended Huckel calculation using a Huzinaga MINI basis set, and project this onto the current basis. This is implemented for a toms upto Rn, and will work for any electron or ECP basis set.</li>
+<li>$DATA: This group describes the global molecular data such as point group symmetry, nuclear coordinates, and possibly the basis set. It consists of a series of free format card images.</li>
+</ul>
+<ol><ol><ol></ol></ol></ol>
 <p>For further details about the input file go to the GAMESS website by clicking <a href="http://www.msg.chem.iastate.edu/gamess/" target="_blank">here</a></p>
 <p></p>

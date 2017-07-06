@@ -1,18 +1,21 @@
-<problem display_name="Multiple Choice" markdown="1. Which one of the following molecular activity results in Infrared and Microwave spectra respectively:&#10;() Rotation and Vibration&#10;(x) Vibration and Rotation&#10;() Ionization and Rotation&#10;() Vibration and Ionization &#10;&#10;Vibrational energies are large compared to rotational energies:&#10;(x) True&#10;() False">
-  <p>1. Which one of the following molecular activity results in Infrared and Microwave spectra respectively:</p>
-  <multiplechoiceresponse>
-    <choicegroup type="MultipleChoice">
-      <choice correct="false">Rotation and Vibration</choice>
-      <choice correct="true">Vibration and Rotation</choice>
-      <choice correct="false">Ionization and Rotation</choice>
-      <choice correct="false">Vibration and Ionization</choice>
-    </choicegroup>
-  </multiplechoiceresponse>
-  <p>Vibrational energies are large compared to rotational energies:</p>
-  <multiplechoiceresponse>
-    <choicegroup type="MultipleChoice">
-      <choice correct="true">True</choice>
-      <choice correct="false">False</choice>
-    </choicegroup>
-  </multiplechoiceresponse>
+<problem display_name="Multiple Choice" markdown="1. Which one of the following molecular activity results in Infrared and Microwave spectra respectively:&#10;() Rotation and Vibration&#10;(x) Vibration and Rotation&#10;() Ionization and Rotation&#10;() Vibration and Ionization &#10;&#10;Vibrational energies are large compared to rotational energies:&#10;(x) True&#10;() False" showanswer="always">
+<p>1. Which one of the following molecular activity results in Infrared and Microwave spectra respectively:</p>
+<multiplechoiceresponse>
+  <choicegroup type="MultipleChoice">
+    <choice correct="false">Rotation and Vibration</choice>
+    <choice correct="true">Vibration and Rotation</choice>
+    <choice correct="false">Ionization and Rotation</choice>
+    <choice correct="false">Vibration and Ionization</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>Vibrational energies are large compared to rotational energies:</p>
+<multiplechoiceresponse>
+  <choicegroup type="MultipleChoice">
+    <choice correct="true">True</choice>
+    <choice correct="false">False</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+
 </problem>
