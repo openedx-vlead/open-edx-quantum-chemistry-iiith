@@ -1,22 +1,19 @@
 <problem display_name="Multiple Choice" markdown="1. How many orbitals per conjugated atom contribute to Huckel Molecular Orbital?&#10;() 0&#10;(x) 1&#10;() 2&#10;() 1/2&#10;&#10;2.For a molecule with conjugated carbon atoms, how many HMO's are formed ?&#10;() N/2&#10;(x) N&#10;() 2N&#10;" showanswer="always">
-<p>1. How many orbitals per conjugated atom contribute to Huckel Molecular Orbital?</p>
-<multiplechoiceresponse>
-  <choicegroup type="MultipleChoice">
-    <choice correct="false">0</choice>
-    <choice correct="true">1</choice>
-    <choice correct="false">2</choice>
-    <choice correct="false">1/2</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>2.For a molecule with conjugated carbon atoms, how many HMO's are formed ?</p>
-<multiplechoiceresponse>
-  <choicegroup type="MultipleChoice">
-    <choice correct="false">N/2</choice>
-    <choice correct="true">N</choice>
-    <choice correct="false">2N</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-
+  <p>1. How many orbitals per conjugated atom contribute to Huckel Molecular Orbital?</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">0</choice>
+      <choice correct="true">1</choice>
+      <choice correct="false">2</choice>
+      <choice correct="false">1/2</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>2.For a molecule with conjugated carbon atoms, how many HMO's are formed ?</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">N/2</choice>
+      <choice correct="true">N</choice>
+      <choice correct="false">2N</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
 </problem>

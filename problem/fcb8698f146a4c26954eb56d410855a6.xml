@@ -1,43 +1,37 @@
 <problem display_name="Multiple Choice" markdown="Q1. Greater the extent of conjugation, larger is the wavelength of the lowest electronic transition.&#10;(x) True&#10;() False&#10;&#10;Q2. &quot;Particle in a ring&quot; is a better quantum mechanical model for benzene than &quot;particle in 1-dimensional box&quot;.&#10;(x) True&#10;() False&#10;&#10;Q3.&quot;Particle in a 2-dimension box&quot; is a better quantum mechanical model for carminic acid (see introduction for its chemical structure) than particle in 1-dimensional box.&#10;(x) True&#10;() False&#10;&#10;Q4. Hund's rule is not applicable for particle in 2-dimensional box model&#10;()True&#10;(x) False&#10;&#10;Q5. For conjugated molecule, based on the particle in 1-d box model, the excited state involved in the lowest electronic energy transition can be expected to have no nodes&#10;() True&#10;(x) False " showanswer="always">
-<p>Q1. Greater the extent of conjugation, larger is the wavelength of the lowest electronic transition.</p>
-<multiplechoiceresponse>
-  <choicegroup type="MultipleChoice">
-    <choice correct="true">True</choice>
-    <choice correct="false">False</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>Q2. "Particle in a ring" is a better quantum mechanical model for benzene than "particle in 1-dimensional box".</p>
-<multiplechoiceresponse>
-  <choicegroup type="MultipleChoice">
-    <choice correct="true">True</choice>
-    <choice correct="false">False</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>Q3."Particle in a 2-dimension box" is a better quantum mechanical model for carminic acid (see introduction for its chemical structure) than particle in 1-dimensional box.</p>
-<multiplechoiceresponse>
-  <choicegroup type="MultipleChoice">
-    <choice correct="true">True</choice>
-    <choice correct="false">False</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>Q4. Hund's rule is not applicable for particle in 2-dimensional box model</p>
-<multiplechoiceresponse>
-  <choicegroup type="MultipleChoice">
-    <choice correct="false">True</choice>
-    <choice correct="true">False</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>Q5. For conjugated molecule, based on the particle in 1-d box model, the excited state involved in the lowest electronic energy transition can be expected to have no nodes</p>
-<multiplechoiceresponse>
-  <choicegroup type="MultipleChoice">
-    <choice correct="false">True</choice>
-    <choice correct="true">False</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-
+  <p>Q1. Greater the extent of conjugation, larger is the wavelength of the lowest electronic transition.</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="true">True</choice>
+      <choice correct="false">False</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>Q2. "Particle in a ring" is a better quantum mechanical model for benzene than "particle in 1-dimensional box".</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="true">True</choice>
+      <choice correct="false">False</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>Q3."Particle in a 2-dimension box" is a better quantum mechanical model for carminic acid (see introduction for its chemical structure) than particle in 1-dimensional box.</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="true">True</choice>
+      <choice correct="false">False</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>Q4. Hund's rule is not applicable for particle in 2-dimensional box model</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">True</choice>
+      <choice correct="true">False</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>Q5. For conjugated molecule, based on the particle in 1-d box model, the excited state involved in the lowest electronic energy transition can be expected to have no nodes</p>
+  <multiplechoiceresponse>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">True</choice>
+      <choice correct="true">False</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
 </problem>

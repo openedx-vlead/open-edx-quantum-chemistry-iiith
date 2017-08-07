@@ -1,5 +1,6 @@
 {
     "course/course": {
+        "advertised_start": "Anytime", 
         "cert_html_view_enabled": true, 
         "course_image": "Quantum Chemistry.jpg", 
         "discussion_topics": {
