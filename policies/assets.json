@@ -3,21 +3,21 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "CCNSB04-IIITH", 
+            "course": "chemsc05", 
             "name": "Quantum_Chemistry.jpg", 
-            "org": "IIIT-H", 
+            "org": "Virtual-Labs", 
             "revision": null, 
             "run": "Anytime", 
             "tag": "c4x"
         }, 
         "displayname": "Quantum Chemistry.jpg", 
-        "filename": "asset-v1:IIIT-H+CCNSB04-IIITH+Anytime+type@asset+block@Quantum_Chemistry.jpg", 
+        "filename": "asset-v1:Virtual-Labs+chemsc05+Anytime+type@asset+block@Quantum_Chemistry.jpg", 
         "import_path": "Quantum Chemistry.jpg", 
         "locked": false, 
         "thumbnail_location": [
             "c4x", 
-            "IIIT-H", 
-            "CCNSB04-IIITH", 
+            "Virtual-Labs", 
+            "chemsc05", 
             "thumbnail", 
             "Quantum_Chemistry.jpg", 
             null
